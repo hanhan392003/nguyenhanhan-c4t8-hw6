@@ -7,7 +7,7 @@ while True:
         items.append(new_item)
         print(items)
     elif i == "R" or i == "r":
-        if len(items) != 0:
+        if len(items) == 0:
             print("this is an empty list")
         else:
             for item in items:
