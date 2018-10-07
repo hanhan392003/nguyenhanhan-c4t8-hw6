@@ -62,6 +62,7 @@ print(list2)
 for i in list2:
     if i == "LOL":
         list2.remove(i)
+        print(list2)
 if "LOL" not in list2:
     print("Check the items in the list again")
 
