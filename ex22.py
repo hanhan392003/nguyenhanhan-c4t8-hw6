@@ -1,4 +1,4 @@
-items = []
+items = ["books", "robots", "sports"]
 while True:
     
     i = input("Enter C, R, U or D: ")
